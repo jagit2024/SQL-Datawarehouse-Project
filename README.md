@@ -1,4 +1,4 @@
-# SQL-Data-Warehouse-Project
+# SQL-Data-Warehouse & Analytics Project
 Welcome and thanks for stopping by!
 
 I am buidling a data warehouse primarily with SQL server, including ETL processes, data modeling, and analytics.

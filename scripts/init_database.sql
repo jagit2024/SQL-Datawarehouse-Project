@@ -19,23 +19,25 @@ GO
   IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
   BEGIN
 
-    AlTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-    DROP DATABASE DataWarehouse;
-    END;
+	AlTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+	DROP DATABASE DataWarehouse;
+	END;
   GO
-
 
   -- create the 'DataWarehouse' Database
 	CREATE DATABASE DataWarehouse;
   GO
-    
+
 	USE DataWarehouse;
   -- creates the schemas: bronze, silver, gold.
+  GO
+
 	CREATE SCHEMA bronze;
+
 	GO
-    
+
 	CREATE SCHEMA silver;
 	GO
-    
+
 	CREATE SCHEMA gold;
 	GO

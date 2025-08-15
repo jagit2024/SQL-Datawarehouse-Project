@@ -8,7 +8,7 @@ Script objective:
   and recreated. Also, the script sets up three schemas within the database: 'bronze', 'silver', 'gold'.
 
 Warning: 
-  Running this script will drop the entier 'DataWarehouse' Database if it exists.
+  Running this script will drop the entire 'DataWarehouse' Database if it exists.
   All data in the database will be permanently deleted. Proceed with caution and ensure you have proper backups before running the script.
 */
 
